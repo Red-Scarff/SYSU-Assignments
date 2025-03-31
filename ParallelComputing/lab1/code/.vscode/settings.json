@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.py": "python",
+        "mpi.h": "c",
+        "iostream": "c",
+        "ostream": "c",
+        "math.h": "c",
+        "stdio.h": "c",
+        "string.h": "c"
+    }
+}

@@ -1,0 +1,1527 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 5644,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Weinstein Company"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5644"
+      },
+      "end": {
+        "identity": 4050,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "U.S"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4050"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5644,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Weinstein Company"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5644"
+          },
+          "relationship": {
+            "identity": 0,
+            "start": 5644,
+            "end": 4050,
+            "type": "ACQUIRE",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:0",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5644",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4050"
+          },
+          "end": {
+            "identity": 4050,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "U.S"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4050"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6991,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Darabont"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6991"
+      },
+      "end": {
+        "identity": 6977,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Two Other King Stories"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6977"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6991,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Darabont"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6991"
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 6991,
+            "end": 6977,
+            "type": "ADAPT",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:1",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6991",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6977"
+          },
+          "end": {
+            "identity": 6977,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Two Other King Stories"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6977"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4030,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Technical Improvements"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4030"
+      },
+      "end": {
+        "identity": 4462,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Length"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4462"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4030,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Technical Improvements"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4030"
+          },
+          "relationship": {
+            "identity": 2,
+            "start": 4030,
+            "end": 4462,
+            "type": "ADD",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:2",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4030",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4462"
+          },
+          "end": {
+            "identity": 4462,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Length"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4462"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6059,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Consumer Copying"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6059"
+      },
+      "end": {
+        "identity": 4567,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Problem"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4567"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6059,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Consumer Copying"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6059"
+          },
+          "relationship": {
+            "identity": 3,
+            "start": 6059,
+            "end": 4567,
+            "type": "ADD",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:3",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6059",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4567"
+          },
+          "end": {
+            "identity": 4567,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Problem"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4567"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4548,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Dilation"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4548"
+      },
+      "end": {
+        "identity": 7184,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "51 Years"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7184"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4548,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Dilation"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4548"
+          },
+          "relationship": {
+            "identity": 4,
+            "start": 4548,
+            "end": 7184,
+            "type": "ADD",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:4",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4548",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7184"
+          },
+          "end": {
+            "identity": 7184,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "51 Years"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7184"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5792,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Nfpb"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5792"
+      },
+      "end": {
+        "identity": 5657,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Nfr"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5657"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5792,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Nfpb"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5792"
+          },
+          "relationship": {
+            "identity": 5,
+            "start": 5792,
+            "end": 5657,
+            "type": "ADD",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:5",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5792",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5657"
+          },
+          "end": {
+            "identity": 5657,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Nfr"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5657"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4411,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Covenant"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4411"
+      },
+      "end": {
+        "identity": 3952,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Extraterrestrial Themes"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:3952"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4411,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Covenant"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4411"
+          },
+          "relationship": {
+            "identity": 6,
+            "start": 4411,
+            "end": 3952,
+            "type": "ADDRESS",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:6",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4411",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:3952"
+          },
+          "end": {
+            "identity": 3952,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Extraterrestrial Themes"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:3952"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5143,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "L'Inferno"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5143"
+      },
+      "end": {
+        "identity": 5884,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Three Artists"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5884"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5143,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "L'Inferno"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5143"
+          },
+          "relationship": {
+            "identity": 7,
+            "start": 5143,
+            "end": 5884,
+            "type": "ADOLFO",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:7",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5143",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5884"
+          },
+          "end": {
+            "identity": 5884,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Three Artists"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5884"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4053,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": ", Universal Pictures"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4053"
+      },
+      "end": {
+        "identity": 5686,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Process"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5686"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4053,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": ", Universal Pictures"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4053"
+          },
+          "relationship": {
+            "identity": 8,
+            "start": 4053,
+            "end": 5686,
+            "type": "ADOPT",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:8",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4053",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5686"
+          },
+          "end": {
+            "identity": 5686,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Process"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5686"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5738,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Tnt"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5738"
+      },
+      "end": {
+        "identity": 4712,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Three-Year Deal"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4712"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5738,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Tnt"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5738"
+          },
+          "relationship": {
+            "identity": 9,
+            "start": 5738,
+            "end": 4712,
+            "type": "AGREE",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:9",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5738",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4712"
+          },
+          "end": {
+            "identity": 4712,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Three-Year Deal"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4712"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6620,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Paul Arendt"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6620"
+      },
+      "end": {
+        "identity": 6051,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Bbc"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6051"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6620,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Paul Arendt"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6620"
+          },
+          "relationship": {
+            "identity": 10,
+            "start": 6620,
+            "end": 6051,
+            "type": "AGREE",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:10",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6620",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6051"
+          },
+          "end": {
+            "identity": 6051,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Bbc"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6051"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 7006,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Hackett"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7006"
+      },
+      "end": {
+        "identity": 7116,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Ubs Executives"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7116"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 7006,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Hackett"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7006"
+          },
+          "relationship": {
+            "identity": 11,
+            "start": 7006,
+            "end": 7116,
+            "type": "AGREE",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:11",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7006",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7116"
+          },
+          "end": {
+            "identity": 7116,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Ubs Executives"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7116"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4486,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Rummana"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4486"
+      },
+      "end": {
+        "identity": 6957,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Yahoo"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6957"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4486,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Rummana"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4486"
+          },
+          "relationship": {
+            "identity": 12,
+            "start": 4486,
+            "end": 6957,
+            "type": "AHMED",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:12",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4486",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6957"
+          },
+          "end": {
+            "identity": 6957,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Yahoo"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6957"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4308,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Ivory"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4308"
+      },
+      "end": {
+        "identity": 3806,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Mr"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:3806"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4308,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Ivory"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4308"
+          },
+          "relationship": {
+            "identity": 13,
+            "start": 4308,
+            "end": 3806,
+            "type": "ALTER",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:13",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4308",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:3806"
+          },
+          "end": {
+            "identity": 3806,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Mr"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:3806"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6961,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Documentary Films"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6961"
+      },
+      "end": {
+        "identity": 5140,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Category"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5140"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6961,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Documentary Films"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6961"
+          },
+          "relationship": {
+            "identity": 14,
+            "start": 6961,
+            "end": 5140,
+            "type": "ANIMATE",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:14",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6961",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5140"
+          },
+          "end": {
+            "identity": 5140,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Category"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5140"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6497,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Fujifilm"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6497"
+      },
+      "end": {
+        "identity": 4421,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "April"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4421"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6497,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Fujifilm"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6497"
+          },
+          "relationship": {
+            "identity": 15,
+            "start": 6497,
+            "end": 4421,
+            "type": "ANNOUNCE",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:15",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6497",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4421"
+          },
+          "end": {
+            "identity": 4421,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "April"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4421"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5727,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Horror-Tinged Spin-Off"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5727"
+      },
+      "end": {
+        "identity": 4011,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Development"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4011"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5727,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Horror-Tinged Spin-Off"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5727"
+          },
+          "relationship": {
+            "identity": 16,
+            "start": 5727,
+            "end": 4011,
+            "type": "ANNOUNCE",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:16",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5727",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4011"
+          },
+          "end": {
+            "identity": 4011,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Development"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4011"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5641,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Joe Morton"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5641"
+      },
+      "end": {
+        "identity": 6400,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Older Dr"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6400"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5641,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Joe Morton"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5641"
+          },
+          "relationship": {
+            "identity": 17,
+            "start": 5641,
+            "end": 6400,
+            "type": "APPEAR",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:17",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5641",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6400"
+          },
+          "end": {
+            "identity": 6400,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Older Dr"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6400"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4738,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Juvenile Stars"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4738"
+      },
+      "end": {
+        "identity": 6838,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Box-Office"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6838"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4738,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Juvenile Stars"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4738"
+          },
+          "relationship": {
+            "identity": 18,
+            "start": 4738,
+            "end": 6838,
+            "type": "APPEAR",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:18",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4738",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6838"
+          },
+          "end": {
+            "identity": 6838,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Box-Office"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6838"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4846,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Cast"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4846"
+      },
+      "end": {
+        "identity": 4461,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Pepper'S Ghost Hologram"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4461"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4846,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Cast"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4846"
+          },
+          "relationship": {
+            "identity": 19,
+            "start": 4846,
+            "end": 4461,
+            "type": "APPEAR",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:19",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4846",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4461"
+          },
+          "end": {
+            "identity": 4461,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Pepper'S Ghost Hologram"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4461"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6211,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Series"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6211"
+      },
+      "end": {
+        "identity": 5919,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "His Spookshow International Comic Book"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5919"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6211,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Series"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6211"
+          },
+          "relationship": {
+            "identity": 20,
+            "start": 6211,
+            "end": 5919,
+            "type": "APPEAR",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:20",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6211",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5919"
+          },
+          "end": {
+            "identity": 5919,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "His Spookshow International Comic Book"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5919"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 7121,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Certain Archetypal Characters"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7121"
+      },
+      "end": {
+        "identity": 5550,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Many Film Noirs"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5550"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 7121,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Certain Archetypal Characters"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7121"
+          },
+          "relationship": {
+            "identity": 21,
+            "start": 7121,
+            "end": 5550,
+            "type": "APPEAR",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:21",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7121",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5550"
+          },
+          "end": {
+            "identity": 5550,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Many Film Noirs"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5550"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 5811,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Temuera Morrison"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5811"
+      },
+      "end": {
+        "identity": 7075,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Tom Curry"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7075"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 5811,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Temuera Morrison"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5811"
+          },
+          "relationship": {
+            "identity": 22,
+            "start": 5811,
+            "end": 7075,
+            "type": "APPEAR",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:22",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:5811",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7075"
+          },
+          "end": {
+            "identity": 7075,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Tom Curry"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7075"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 4044,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Tamil Language Films"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4044"
+      },
+      "end": {
+        "identity": 3847,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Multiple Film Festivals"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:3847"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 4044,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Tamil Language Films"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4044"
+          },
+          "relationship": {
+            "identity": 23,
+            "start": 4044,
+            "end": 3847,
+            "type": "APPEAR",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:23",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:4044",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:3847"
+          },
+          "end": {
+            "identity": 3847,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Multiple Film Festivals"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:3847"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 6612,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "Indian Films"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6612"
+      },
+      "end": {
+        "identity": 7053,
+        "labels": [
+          "Entity"
+        ],
+        "properties": {
+          "name": "International Fora And Film Festivals"
+        },
+        "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7053"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 6612,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "Indian Films"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6612"
+          },
+          "relationship": {
+            "identity": 24,
+            "start": 6612,
+            "end": 7053,
+            "type": "APPEAR",
+            "properties": {
+
+            },
+            "elementId": "5:528f63ad-35ee-4937-9fea-403eb7e3d5be:24",
+            "startNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:6612",
+            "endNodeElementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7053"
+          },
+          "end": {
+            "identity": 7053,
+            "labels": [
+              "Entity"
+            ],
+            "properties": {
+              "name": "International Fora And Film Festivals"
+            },
+            "elementId": "4:528f63ad-35ee-4937-9fea-403eb7e3d5be:7053"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]
