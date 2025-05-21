@@ -1,0 +1,556 @@
+--------------------------------------------------------------------------------
+Command:            ./fft_mpi
+Massif arguments:   --stacks=yes --massif-out-file=massif.%p.out
+ms_print arguments: massif.704051.out
+--------------------------------------------------------------------------------
+
+
+    MB
+79.72^                                   ::  :::: :  : :: @:                  
+     |                                ##::::::: :::::::: :@::                 
+     |                                # :::: :: :::: ::: :@::                 
+     |                                # :::: :: :::: ::: :@::                 
+     |                                # :::: :: :::: ::: :@::                 
+     |                                # :::: :: :::: ::: :@::                 
+     |                                # :::: :: :::: ::: :@::                 
+     |                                # :::: :: :::: ::: :@::                 
+     |                                # :::: :: :::: ::: :@::                 
+     |                                # :::: :: :::: ::: :@::                 
+     |                    @:::::::::::# :::: :: :::: ::: :@::                 
+     |                    @: :::: ::: # :::: :: :::: ::: :@::                 
+     |                    @: :::: ::: # :::: :: :::: ::: :@::                 
+     |                    @: :::: ::: # :::: :: :::: ::: :@::                 
+     |                    @: :::: ::: # :::: :: :::: ::: :@::                 
+     |                ::::@: :::: ::: # :::: :: :::: ::: :@::                 
+     |                ::::@: :::: ::: # :::: :: :::: ::: :@::                 
+     |             :::::::@: :::: ::: # :::: :: :::: ::: :@::                 
+     |         :::::: ::::@: :::: ::: # :::: :: :::: ::: :@::                 
+     |       ::: : :: ::::@: :::: ::: # :::: :: :::: ::: :@::                 
+   0 +----------------------------------------------------------------------->Gi
+     0                                                                   4.577
+
+Number of snapshots: 56
+ Detailed snapshots: [1, 16, 25 (peak), 40, 50]
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  0              0                0                0             0            0
+  1     59,567,482        3,262,256        3,072,025       181,663        8,568
+94.17% (3,072,025B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->48.97% (1,597,408B) 0x4F8F022: opal_free_list_grow_st (opal_free_list.c:210)
+| ->32.22% (1,051,256B) 0x6FAAD8F: ???
+| | ->32.22% (1,051,256B) 0x4FDFB88: mca_btl_base_select (btl_base_select.c:110)
+| |   ->32.22% (1,051,256B) 0x6F9F527: ???
+| |     ->32.22% (1,051,256B) 0x48C902A: mca_bml_base_init (bml_base_init.c:74)
+| |       ->32.22% (1,051,256B) 0x49261B4: ompi_mpi_init (ompi_mpi_init.c:613)
+| |         ->32.22% (1,051,256B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+| |           ->32.22% (1,051,256B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| |             
+| ->16.15% (526,968B) 0x6FAAD43: ???
+| | ->16.15% (526,968B) 0x4FDFB88: mca_btl_base_select (btl_base_select.c:110)
+| |   ->16.15% (526,968B) 0x6F9F527: ???
+| |     ->16.15% (526,968B) 0x48C902A: mca_bml_base_init (bml_base_init.c:74)
+| |       ->16.15% (526,968B) 0x49261B4: ompi_mpi_init (ompi_mpi_init.c:613)
+| |         ->16.15% (526,968B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+| |           ->16.15% (526,968B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| |             
+| ->00.59% (19,184B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->12.24% (399,304B) in 576 places, all below massif's threshold (1.00%)
+| 
+->06.95% (226,752B) 0x4F8F8A1: opal_hash_table_init2 (opal_hash_table.c:167)
+| ->02.03% (66,272B) 0x489436F: ompi_proc_init (proc.c:253)
+| | ->02.03% (66,272B) 0x49260B4: ompi_mpi_init (ompi_mpi_init.c:571)
+| |   ->02.03% (66,272B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+| |     ->02.03% (66,272B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| |       
+| ->02.03% (66,272B) 0x4FBEC41: mca_base_var_init (mca_base_var.c:274)
+| | ->02.03% (66,272B) 0x4FBEC41: mca_base_var_init (mca_base_var.c:251)
+| |   ->02.03% (66,272B) 0x4F99211: opal_init_util (opal_init.c:418)
+| |     ->02.03% (66,272B) 0x4925BD0: ompi_mpi_init (ompi_mpi_init.c:428)
+| |       ->02.03% (66,272B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+| |         ->02.03% (66,272B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| |           
+| ->02.03% (66,272B) 0x4FC2649: mca_base_pvar_init (mca_base_pvar.c:63)
+| | ->02.03% (66,272B) 0x4FBEC6D: mca_base_var_init (mca_base_var.c:284)
+| |   ->02.03% (66,272B) 0x4FBEC6D: mca_base_var_init (mca_base_var.c:251)
+| |     ->02.03% (66,272B) 0x4F99211: opal_init_util (opal_init.c:418)
+| |       ->02.03% (66,272B) 0x4925BD0: ompi_mpi_init (ompi_mpi_init.c:428)
+| |         ->02.03% (66,272B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+| |           ->02.03% (66,272B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| |             
+| ->00.86% (27,936B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->06.01% (196,128B) 0x5D7F6F1: ???
+| ->02.03% (66,272B) 0x5E079C9: ???
+| | ->02.03% (66,272B) 0x5DE424C: ???
+| |   ->02.03% (66,272B) 0x5DA4E00: ???
+| |     ->02.03% (66,272B) 0x5D4C63A: ???
+| |       ->02.03% (66,272B) 0x552FA07: ???
+| |         ->02.03% (66,272B) 0x4F3A7DF: orte_init (orte_init.c:271)
+| |           ->02.03% (66,272B) 0x4925DC2: ompi_mpi_init (ompi_mpi_init.c:518)
+| |             ->02.03% (66,272B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+| |               ->02.03% (66,272B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| |                 
+| ->01.06% (34,624B) 0x5EE8BEE: ???
+| | ->01.06% (34,624B) 0x5EE9958: ???
+| |   ->01.06% (34,624B) 0x5EECC1F: ???
+| |     ->01.06% (34,624B) in 2 places, all below massif's threshold (1.00%)
+| |       
+| ->01.06% (34,624B) 0x5EE8C4E: ???
+| | ->01.06% (34,624B) 0x5EE9958: ???
+| |   ->01.06% (34,624B) 0x5EECC1F: ???
+| |     ->01.06% (34,624B) in 2 places, all below massif's threshold (1.00%)
+| |       
+| ->01.06% (34,624B) 0x5EE8CAE: ???
+| | ->01.06% (34,624B) 0x5EE9958: ???
+| |   ->01.06% (34,624B) 0x5EECC1F: ???
+| |     ->01.06% (34,624B) in 2 places, all below massif's threshold (1.00%)
+| |       
+| ->00.80% (25,984B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->03.65% (118,944B) 0x4FBEE0D: opal_obj_new (opal_object.h:507)
+| ->03.65% (118,944B) 0x4FBEE0D: register_variable (mca_base_var.c:1379)
+|   ->03.50% (114,240B) 0x4FC0E9A: mca_base_var_register (mca_base_var.c:1529)
+|   | ->02.30% (75,096B) 0x4FC0EE1: mca_base_component_var_register (mca_base_var.c:1541)
+|   | | ->02.30% (75,096B) in 217 places, all below massif's threshold (1.00%)
+|   | |   
+|   | ->01.20% (39,144B) in 179 places, all below massif's threshold (1.00%)
+|   |   
+|   ->00.14% (4,704B) in 1+ places, all below ms_print's threshold (01.00%)
+|   
+->03.37% (109,841B) 0x400D283: _dl_new_object (dl-object.c:89)
+| ->03.37% (109,841B) 0x4006E96: _dl_map_object_from_fd (dl-load.c:997)
+|   ->03.37% (109,841B) 0x400A61A: _dl_map_object (dl-load.c:2236)
+|     ->02.52% (82,224B) 0x4015D46: dl_open_worker (dl-open.c:513)
+|     | ->02.52% (82,224B) 0x4E10B47: _dl_catch_exception (dl-error-skeleton.c:208)
+|     |   ->02.52% (82,224B) 0x4015609: _dl_open (dl-open.c:837)
+|     |     ->02.48% (81,022B) 0x50D034B: dlopen_doit (dlopen.c:66)
+|     |     | ->02.48% (81,022B) 0x4E10B47: _dl_catch_exception (dl-error-skeleton.c:208)
+|     |     |   ->02.48% (81,022B) 0x4E10C12: _dl_catch_error (dl-error-skeleton.c:227)
+|     |     |     ->02.48% (81,022B) 0x50D0B58: _dlerror_run (dlerror.c:170)
+|     |     |       ->02.48% (81,022B) 0x50D03D9: dlopen@@GLIBC_2.2.5 (dlopen.c:87)
+|     |     |         ->01.51% (49,175B) 0x4FE1973: do_dlopen (dl_dlopen_module.c:38)
+|     |     |         | ->01.51% (49,175B) 0x4FE1973: dlopen_open (dl_dlopen_module.c:94)
+|     |     |         |   ->01.51% (49,175B) 0x4FBC373: mca_base_component_repository_open (mca_base_component_repository.c:416)
+|     |     |         |     ->01.51% (49,175B) 0x4FBB34A: find_dyn_components (mca_base_component_find.c:264)
+|     |     |         |       ->01.51% (49,175B) 0x4FBB34A: mca_base_component_find (mca_base_component_find.c:135)
+|     |     |         |         ->01.51% (49,175B) 0x4FC6E1D: mca_base_framework_components_register (mca_base_components_register.c:55)
+|     |     |         |           ->01.51% (49,175B) 0x4FC7305: mca_base_framework_register (mca_base_framework.c:129)
+|     |     |         |             ->01.51% (49,175B) 0x4FC7305: mca_base_framework_register (mca_base_framework.c:55)
+|     |     |         |               ->01.51% (49,175B) 0x4FC7363: mca_base_framework_open (mca_base_framework.c:148)
+|     |     |         |                 ->01.51% (49,175B) in 16 places, all below massif's threshold (1.00%)
+|     |     |         |                   
+|     |     |         ->00.98% (31,847B) in 1+ places, all below ms_print's threshold (01.00%)
+|     |     |         
+|     |     ->00.04% (1,202B) in 1+ places, all below ms_print's threshold (01.00%)
+|     |     
+|     ->00.85% (27,617B) in 1+ places, all below ms_print's threshold (01.00%)
+|     
+->02.83% (92,380B) 0x4D4F38E: strdup (strdup.c:42)
+| ->01.49% (48,687B) 0x4FBEEA8: register_variable (mca_base_var.c:1390)
+| | ->01.40% (45,519B) 0x4FC0E9A: mca_base_var_register (mca_base_var.c:1529)
+| | | ->01.40% (45,519B) in 175 places, all below massif's threshold (1.00%)
+| | |   
+| | ->00.10% (3,168B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->01.34% (43,693B) in 328 places, all below massif's threshold (1.00%)
+|   
+->02.26% (73,728B) 0x5D80112: ???
+| ->02.26% (73,728B) 0x5DE4479: ???
+|   ->02.26% (73,728B) 0x5DA4E00: ???
+|     ->02.26% (73,728B) 0x5D4C63A: ???
+|       ->02.26% (73,728B) 0x552FA07: ???
+|         ->02.26% (73,728B) 0x4F3A7DF: orte_init (orte_init.c:271)
+|           ->02.26% (73,728B) 0x4925DC2: ompi_mpi_init (ompi_mpi_init.c:518)
+|             ->02.26% (73,728B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+|               ->02.26% (73,728B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+|                 
+->02.23% (72,704B) 0x4A25A69: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+| ->02.23% (72,704B) 0x4011B99: call_init.part.0 (dl-init.c:72)
+|   ->02.23% (72,704B) 0x4011CA0: call_init (dl-init.c:30)
+|     ->02.23% (72,704B) 0x4011CA0: _dl_init (dl-init.c:119)
+|       ->02.23% (72,704B) 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+|         
+->02.01% (65,536B) 0x72600DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.550.127.05)
+| ->02.01% (65,536B) 0x7258D24: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.550.127.05)
+|   ->02.01% (65,536B) 0x7208192: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.550.127.05)
+|     ->02.01% (65,536B) 0x726D784: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.550.127.05)
+|       ->02.01% (65,536B) 0x9B966F2: ??? (in /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudart.so.11.8.89)
+|         ->02.01% (65,536B) 0x9B99717: ??? (in /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudart.so.11.8.89)
+|           ->02.01% (65,536B) 0x50844DE: __pthread_once_slow (pthread_once.c:116)
+|             ->02.01% (65,536B) 0x9BDF5D8: ??? (in /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudart.so.11.8.89)
+|               ->02.01% (65,536B) 0x9B8B206: ??? (in /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudart.so.11.8.89)
+|                 ->02.01% (65,536B) 0x9BB0230: cudaGetDeviceCount (in /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudart.so.11.8.89)
+|                   ->02.01% (65,536B) 0x9B58A84: uct_cuda_base_query_md_resources (cuda_md.c:284)
+|                     ->02.01% (65,536B) 0x925D7D4: uct_component_query (uct_component.c:91)
+|                       ->02.01% (65,536B) 0x90012E1: ???
+|                         ->02.01% (65,536B) 0x9002666: ???
+|                           ->02.01% (65,536B) 0x8FC9B3D: ???
+|                             ->02.01% (65,536B) 0x4FBCCCC: open_components (mca_base_components_open.c:125)
+|                               ->02.01% (65,536B) 0x4FBCCCC: mca_base_framework_components_open (mca_base_components_open.c:68)
+|                                 ->02.01% (65,536B) 0x491C43E: mca_pml_base_open (pml_base_frame.c:184)
+|                                   ->02.01% (65,536B) 0x4FC73D8: mca_base_framework_open (mca_base_framework.c:176)
+|                                     ->02.01% (65,536B) 0x49261D4: ompi_mpi_init (ompi_mpi_init.c:617)
+|                                       ->02.01% (65,536B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+|                                         ->02.01% (65,536B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+|                                           
+->01.27% (41,540B) 0x4FBE9C1: mca_base_var_generate_full_name4 (mca_base_var.c:194)
+| ->01.27% (41,540B) in 8 places, all below massif's threshold (1.00%)
+|   
+->01.22% (39,680B) 0x5023F41: opal_hwloc201_hwloc_tma_malloc (private.h:383)
+| ->01.22% (39,680B) 0x5023F41: opal_hwloc201_hwloc_alloc_setup_object (topology.c:1679)
+|   ->01.22% (39,680B) in 9 places, all below massif's threshold (1.00%)
+|     
+->01.17% (38,080B) 0x4FC628F: opal_obj_new (opal_object.h:507)
+  ->01.17% (38,080B) 0x4FC628F: group_register (mca_base_var_group.c:244)
+    ->01.17% (38,080B) in 7 places, all below massif's threshold (1.00%)
+      
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  2    152,189,496        3,850,904        3,634,987       206,533        9,384
+  3    231,006,491        3,851,416        3,635,595       206,517        9,304
+  4    296,525,612        3,860,008        3,644,107       206,517        9,384
+  5    369,970,008        4,028,120        3,812,731       206,549        8,840
+  6    479,875,432        4,495,248        4,279,775       206,585        8,888
+  7    568,702,964        6,363,024        6,147,551       206,585        8,888
+  8    666,494,997        8,853,528        8,638,067       206,605        8,856
+  9    802,838,086        8,853,528        8,638,067       206,605        8,856
+ 10    909,354,300       13,834,296       13,618,803       206,605        8,888
+ 11    996,402,215       13,834,224       13,618,803       206,605        8,816
+ 12  1,100,163,812       23,811,896       23,580,275       222,733        8,888
+ 13  1,180,987,698       23,811,896       23,580,275       222,733        8,888
+ 14  1,259,068,623       23,811,848       23,580,275       222,733        8,840
+ 15  1,321,533,338       23,811,864       23,580,275       222,733        8,856
+ 16  1,420,359,471       43,734,192       43,503,219       222,733        8,240
+99.47% (43,503,219B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->19.18% (8,388,608B) 0x10A7DA: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->19.18% (8,388,608B) 0x10A80D: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->19.18% (8,388,608B) 0x10A840: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->19.18% (8,388,608B) 0x10A873: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->04.80% (2,097,152B) 0x10A952: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->04.80% (2,097,152B) 0x10A985: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->04.80% (2,097,152B) 0x10A9B8: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->04.53% (1,980,555B) in 657 places, all below massif's threshold (1.00%)
+| 
+->03.83% (1,676,776B) 0x4F8F022: opal_free_list_grow_st (opal_free_list.c:210)
+  ->02.40% (1,051,256B) 0x6FAAD8F: ???
+  | ->02.40% (1,051,256B) 0x4FDFB88: mca_btl_base_select (btl_base_select.c:110)
+  |   ->02.40% (1,051,256B) 0x6F9F527: ???
+  |     ->02.40% (1,051,256B) 0x48C902A: mca_bml_base_init (bml_base_init.c:74)
+  |       ->02.40% (1,051,256B) 0x49261B4: ompi_mpi_init (ompi_mpi_init.c:613)
+  |         ->02.40% (1,051,256B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+  |           ->02.40% (1,051,256B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+  |             
+  ->01.20% (526,968B) 0x6FAAD43: ???
+  | ->01.20% (526,968B) 0x4FDFB88: mca_btl_base_select (btl_base_select.c:110)
+  |   ->01.20% (526,968B) 0x6F9F527: ???
+  |     ->01.20% (526,968B) 0x48C902A: mca_bml_base_init (bml_base_init.c:74)
+  |       ->01.20% (526,968B) 0x49261B4: ompi_mpi_init (ompi_mpi_init.c:613)
+  |         ->01.20% (526,968B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+  |           ->01.20% (526,968B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+  |             
+  ->00.23% (98,552B) in 1+ places, all below ms_print's threshold (01.00%)
+  
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 17  1,482,824,216       43,734,632       43,503,219       222,733        8,680
+ 18  1,596,580,798       43,734,808       43,503,219       222,733        8,856
+ 19  1,690,277,893       43,734,840       43,503,219       222,733        8,888
+ 20  1,752,742,646       43,734,768       43,503,219       222,733        8,816
+ 21  1,830,823,598       43,734,840       43,503,219       222,733        8,888
+ 22  1,940,022,563       43,734,816       43,503,219       222,733        8,864
+ 23  2,005,541,951       43,734,808       43,503,219       222,733        8,856
+ 24  2,114,740,918       43,734,760       43,503,219       222,733        8,808
+ 25  2,192,488,828       83,592,176       83,349,107       234,829        8,240
+99.71% (83,349,107B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->20.07% (16,777,216B) 0x10A7DA: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->20.07% (16,777,216B) 0x10A80D: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->20.07% (16,777,216B) 0x10A840: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->20.07% (16,777,216B) 0x10A873: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->05.02% (4,194,304B) 0x10A952: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->05.02% (4,194,304B) 0x10A985: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->05.02% (4,194,304B) 0x10A9B8: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->02.37% (1,980,555B) in 657 places, all below massif's threshold (1.00%)
+| 
+->02.01% (1,676,776B) 0x4F8F022: opal_free_list_grow_st (opal_free_list.c:210)
+  ->01.26% (1,051,256B) 0x6FAAD8F: ???
+  | ->01.26% (1,051,256B) 0x4FDFB88: mca_btl_base_select (btl_base_select.c:110)
+  |   ->01.26% (1,051,256B) 0x6F9F527: ???
+  |     ->01.26% (1,051,256B) 0x48C902A: mca_bml_base_init (bml_base_init.c:74)
+  |       ->01.26% (1,051,256B) 0x49261B4: ompi_mpi_init (ompi_mpi_init.c:613)
+  |         ->01.26% (1,051,256B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+  |           ->01.26% (1,051,256B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+  |             
+  ->00.75% (625,520B) in 1+ places, all below ms_print's threshold (01.00%)
+  
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 26  2,323,527,680       83,592,664       83,349,107       234,829        8,728
+ 27  2,389,047,047       83,592,824       83,349,107       234,829        8,888
+ 28  2,476,406,214       83,592,824       83,349,107       234,829        8,888
+ 29  2,563,765,364       83,592,744       83,349,107       234,829        8,808
+ 30  2,694,804,104       83,592,824       83,349,107       234,829        8,888
+ 31  2,782,163,281       83,592,824       83,349,107       234,829        8,888
+ 32  2,895,073,039       83,592,824       83,349,107       234,829        8,888
+ 33  2,964,303,181       83,592,776       83,349,107       234,829        8,840
+ 34  3,033,533,337       83,592,824       83,349,107       234,829        8,888
+ 35  3,137,378,572       83,592,792       83,349,107       234,829        8,856
+ 36  3,241,223,783       83,592,824       83,349,107       234,829        8,888
+ 37  3,310,453,927       83,592,792       83,349,107       234,829        8,856
+ 38  3,379,684,076       83,592,824       83,349,107       234,829        8,888
+ 39  3,483,529,281       83,592,744       83,349,107       234,829        8,808
+ 40  3,552,759,420       83,592,824       83,349,107       234,829        8,888
+99.71% (83,349,107B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->20.07% (16,777,216B) 0x10A7DA: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->20.07% (16,777,216B) 0x10A80D: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->20.07% (16,777,216B) 0x10A840: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->20.07% (16,777,216B) 0x10A873: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->05.02% (4,194,304B) 0x10A952: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->05.02% (4,194,304B) 0x10A985: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->05.02% (4,194,304B) 0x10A9B8: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| 
+->02.37% (1,980,555B) in 657 places, all below massif's threshold (1.00%)
+| 
+->02.01% (1,676,776B) 0x4F8F022: opal_free_list_grow_st (opal_free_list.c:210)
+  ->01.26% (1,051,256B) 0x6FAAD8F: ???
+  | ->01.26% (1,051,256B) 0x4FDFB88: mca_btl_base_select (btl_base_select.c:110)
+  |   ->01.26% (1,051,256B) 0x6F9F527: ???
+  |     ->01.26% (1,051,256B) 0x48C902A: mca_bml_base_init (bml_base_init.c:74)
+  |       ->01.26% (1,051,256B) 0x49261B4: ompi_mpi_init (ompi_mpi_init.c:613)
+  |         ->01.26% (1,051,256B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+  |           ->01.26% (1,051,256B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+  |             
+  ->00.75% (625,520B) in 1+ places, all below ms_print's threshold (01.00%)
+  
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 41  3,621,989,575       83,592,824       83,349,107       234,829        8,888
+ 42  3,725,834,800       83,592,736       83,349,107       234,829        8,800
+ 43  3,795,064,943        3,693,200        3,483,808       200,920        8,472
+ 44  3,933,525,199        3,693,200        3,483,808       200,920        8,472
+ 45  4,071,985,455        3,693,200        3,483,808       200,920        8,472
+ 46  4,141,215,610        3,693,040        3,483,616       200,904        8,520
+ 47  4,279,675,866        3,693,040        3,483,616       200,904        8,520
+ 48  4,418,136,122        3,693,040        3,483,616       200,904        8,520
+ 49  4,556,596,378        3,693,040        3,483,616       200,904        8,520
+ 50  4,616,163,860        3,692,992        3,483,616       200,904        8,472
+94.33% (3,483,616B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->45.39% (1,676,184B) 0x4F8F022: opal_free_list_grow_st (opal_free_list.c:210)
+| ->28.47% (1,051,256B) 0x6FAAD8F: ???
+| | ->28.47% (1,051,256B) 0x4FDFB88: mca_btl_base_select (btl_base_select.c:110)
+| |   ->28.47% (1,051,256B) 0x6F9F527: ???
+| |     ->28.47% (1,051,256B) 0x48C902A: mca_bml_base_init (bml_base_init.c:74)
+| |       ->28.47% (1,051,256B) 0x49261B4: ompi_mpi_init (ompi_mpi_init.c:613)
+| |         ->28.47% (1,051,256B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+| |           ->28.47% (1,051,256B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| |             
+| ->14.27% (526,968B) 0x6FAAD43: ???
+| | ->14.27% (526,968B) 0x4FDFB88: mca_btl_base_select (btl_base_select.c:110)
+| |   ->14.27% (526,968B) 0x6F9F527: ???
+| |     ->14.27% (526,968B) 0x48C902A: mca_bml_base_init (bml_base_init.c:74)
+| |       ->14.27% (526,968B) 0x49261B4: ompi_mpi_init (ompi_mpi_init.c:613)
+| |         ->14.27% (526,968B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+| |           ->14.27% (526,968B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| |             
+| ->01.43% (52,840B) in 7 places, all below massif's threshold (1.00%)
+| | 
+| ->01.22% (45,120B) 0x8FC7335: ???
+|   ->01.22% (45,120B) 0x4926463: ompi_mpi_init (ompi_mpi_init.c:832)
+|     ->01.22% (45,120B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+|       ->01.22% (45,120B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+|         
+->10.66% (393,602B) in 654 places, all below massif's threshold (1.00%)
+| 
+->06.17% (227,744B) 0x4F8F8A1: opal_hash_table_init2 (opal_hash_table.c:167)
+| ->01.79% (66,272B) 0x489436F: ompi_proc_init (proc.c:253)
+| | ->01.79% (66,272B) 0x49260B4: ompi_mpi_init (ompi_mpi_init.c:571)
+| |   ->01.79% (66,272B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+| |     ->01.79% (66,272B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| |       
+| ->01.79% (66,272B) 0x4FBEC41: mca_base_var_init (mca_base_var.c:274)
+| | ->01.79% (66,272B) 0x4FBEC41: mca_base_var_init (mca_base_var.c:251)
+| |   ->01.79% (66,272B) 0x4F99211: opal_init_util (opal_init.c:418)
+| |     ->01.79% (66,272B) 0x4925BD0: ompi_mpi_init (ompi_mpi_init.c:428)
+| |       ->01.79% (66,272B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+| |         ->01.79% (66,272B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| |           
+| ->01.79% (66,272B) 0x4FC2649: mca_base_pvar_init (mca_base_pvar.c:63)
+| | ->01.79% (66,272B) 0x4FBEC6D: mca_base_var_init (mca_base_var.c:284)
+| |   ->01.79% (66,272B) 0x4FBEC6D: mca_base_var_init (mca_base_var.c:251)
+| |     ->01.79% (66,272B) 0x4F99211: opal_init_util (opal_init.c:418)
+| |       ->01.79% (66,272B) 0x4925BD0: ompi_mpi_init (ompi_mpi_init.c:428)
+| |         ->01.79% (66,272B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+| |           ->01.79% (66,272B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| |             
+| ->00.78% (28,928B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->05.31% (196,128B) 0x5D7F6F1: ???
+| ->03.52% (129,856B) in 5 places, all below massif's threshold (1.00%)
+| | 
+| ->01.79% (66,272B) 0x5E079C9: ???
+|   ->01.79% (66,272B) 0x5DE424C: ???
+|     ->01.79% (66,272B) 0x5DA4E00: ???
+|       ->01.79% (66,272B) 0x5D4C63A: ???
+|         ->01.79% (66,272B) 0x552FA07: ???
+|           ->01.79% (66,272B) 0x4F3A7DF: orte_init (orte_init.c:271)
+|             ->01.79% (66,272B) 0x4925DC2: ompi_mpi_init (ompi_mpi_init.c:518)
+|               ->01.79% (66,272B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+|                 ->01.79% (66,272B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+|                   
+->04.31% (159,235B) 0x911B5A3: ucs_malloc (memtrack.c:319)
+| ->02.76% (101,803B) in 41 places, all below massif's threshold (1.00%)
+| | 
+| ->01.56% (57,432B) 0x910D97C: ucs_mpool_hugetlb_malloc (mpool.c:402)
+|   ->01.56% (57,432B) 0x910D4FA: ucs_mpool_grow (mpool.c:266)
+|     ->01.56% (57,432B) 0x910D738: ucs_mpool_get_grow (mpool.c:316)
+|       ->01.56% (57,432B) 0x906FFFF: ???
+|         ->01.56% (57,432B) 0x8FC6EA1: ???
+|           ->01.56% (57,432B) 0x48D383C: ompi_coll_base_bcast_intra_generic (coll_base_bcast.c:122)
+|             ->01.56% (57,432B) 0x48D3F8C: ompi_coll_base_bcast_intra_binomial (coll_base_bcast.c:356)
+|               ->01.56% (57,432B) 0xC3A183F: ???
+|                 ->01.56% (57,432B) 0x48ADC10: PMPI_Bcast (pbcast.c:114)
+|                   ->01.56% (57,432B) 0x48ADC10: PMPI_Bcast (pbcast.c:41)
+|                     ->01.56% (57,432B) 0x10AA8F: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+|                       
+->03.78% (139,776B) 0x4FBEE0D: opal_obj_new (opal_object.h:507)
+| ->03.78% (139,776B) 0x4FBEE0D: register_variable (mca_base_var.c:1379)
+|   ->03.63% (134,232B) 0x4FC0E9A: mca_base_var_register (mca_base_var.c:1529)
+|   | ->02.56% (94,584B) 0x4FC0EE1: mca_base_component_var_register (mca_base_var.c:1541)
+|   | | ->02.56% (94,584B) in 297 places, all below massif's threshold (1.00%)
+|   | |   
+|   | ->01.07% (39,648B) in 180 places, all below massif's threshold (1.00%)
+|   |   
+|   ->00.15% (5,544B) in 1+ places, all below ms_print's threshold (01.00%)
+|   
+->03.61% (133,477B) 0x911B62F: ucs_calloc (memtrack.c:327)
+| ->03.43% (126,496B) 0x90266C2: ???
+| | ->03.43% (126,496B) 0x8FC9D2E: ???
+| |   ->03.43% (126,496B) 0x8FCC074: ???
+| |     ->03.43% (126,496B) 0x491D05E: mca_pml_base_select (pml_base_select.c:127)
+| |       ->03.43% (126,496B) 0x4926229: ompi_mpi_init (ompi_mpi_init.c:647)
+| |         ->03.43% (126,496B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+| |           ->03.43% (126,496B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+| |             
+| ->00.19% (6,981B) in 1+ places, all below ms_print's threshold (01.00%)
+| 
+->02.97% (109,839B) 0x400D283: _dl_new_object (dl-object.c:89)
+| ->02.97% (109,839B) 0x4006E96: _dl_map_object_from_fd (dl-load.c:997)
+|   ->02.97% (109,839B) 0x400A61A: _dl_map_object (dl-load.c:2236)
+|     ->02.26% (83,437B) 0x4015D46: dl_open_worker (dl-open.c:513)
+|     | ->02.26% (83,437B) 0x4E10B47: _dl_catch_exception (dl-error-skeleton.c:208)
+|     |   ->02.26% (83,437B) 0x4015609: _dl_open (dl-open.c:837)
+|     |     ->02.23% (82,235B) 0x50D034B: dlopen_doit (dlopen.c:66)
+|     |     | ->02.23% (82,235B) 0x4E10B47: _dl_catch_exception (dl-error-skeleton.c:208)
+|     |     |   ->02.23% (82,235B) 0x4E10C12: _dl_catch_error (dl-error-skeleton.c:227)
+|     |     |     ->02.23% (82,235B) 0x50D0B58: _dlerror_run (dlerror.c:170)
+|     |     |       ->02.23% (82,235B) 0x50D03D9: dlopen@@GLIBC_2.2.5 (dlopen.c:87)
+|     |     |         ->01.36% (50,388B) 0x4FE1973: do_dlopen (dl_dlopen_module.c:38)
+|     |     |         | ->01.36% (50,388B) 0x4FE1973: dlopen_open (dl_dlopen_module.c:94)
+|     |     |         |   ->01.36% (50,388B) 0x4FBC373: mca_base_component_repository_open (mca_base_component_repository.c:416)
+|     |     |         |     ->01.36% (50,388B) 0x4FBB34A: find_dyn_components (mca_base_component_find.c:264)
+|     |     |         |       ->01.36% (50,388B) 0x4FBB34A: mca_base_component_find (mca_base_component_find.c:135)
+|     |     |         |         ->01.36% (50,388B) 0x4FC6E1D: mca_base_framework_components_register (mca_base_components_register.c:55)
+|     |     |         |           ->01.36% (50,388B) 0x4FC7305: mca_base_framework_register (mca_base_framework.c:129)
+|     |     |         |             ->01.36% (50,388B) 0x4FC7305: mca_base_framework_register (mca_base_framework.c:55)
+|     |     |         |               ->01.36% (50,388B) 0x4FC7363: mca_base_framework_open (mca_base_framework.c:148)
+|     |     |         |                 ->01.36% (50,388B) in 17 places, all below massif's threshold (1.00%)
+|     |     |         |                   
+|     |     |         ->00.86% (31,847B) in 1+ places, all below ms_print's threshold (01.00%)
+|     |     |         
+|     |     ->00.03% (1,202B) in 1+ places, all below ms_print's threshold (01.00%)
+|     |     
+|     ->00.71% (26,402B) in 1+ places, all below ms_print's threshold (01.00%)
+|     
+->02.86% (105,521B) 0x4D4F38E: strdup (strdup.c:42)
+| ->01.57% (57,983B) 0x4FBEEA8: register_variable (mca_base_var.c:1390)
+| | ->01.47% (54,216B) 0x4FC0E9A: mca_base_var_register (mca_base_var.c:1529)
+| | | ->01.47% (54,216B) in 176 places, all below massif's threshold (1.00%)
+| | |   
+| | ->00.10% (3,767B) in 1+ places, all below ms_print's threshold (01.00%)
+| | 
+| ->01.29% (47,538B) in 335 places, all below massif's threshold (1.00%)
+|   
+->02.00% (73,728B) 0x5D80112: ???
+| ->02.00% (73,728B) 0x5DE4479: ???
+|   ->02.00% (73,728B) 0x5DA4E00: ???
+|     ->02.00% (73,728B) 0x5D4C63A: ???
+|       ->02.00% (73,728B) 0x552FA07: ???
+|         ->02.00% (73,728B) 0x4F3A7DF: orte_init (orte_init.c:271)
+|           ->02.00% (73,728B) 0x4925DC2: ompi_mpi_init (ompi_mpi_init.c:518)
+|             ->02.00% (73,728B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+|               ->02.00% (73,728B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+|                 
+->01.97% (72,704B) 0x4A25A69: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+| ->01.97% (72,704B) 0x4011B99: call_init.part.0 (dl-init.c:72)
+|   ->01.97% (72,704B) 0x4011CA0: call_init (dl-init.c:30)
+|     ->01.97% (72,704B) 0x4011CA0: _dl_init (dl-init.c:119)
+|       ->01.97% (72,704B) 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+|         
+->01.77% (65,536B) 0x72600DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.550.127.05)
+| ->01.77% (65,536B) 0x7258D24: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.550.127.05)
+|   ->01.77% (65,536B) 0x7208192: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.550.127.05)
+|     ->01.77% (65,536B) 0x726D784: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.550.127.05)
+|       ->01.77% (65,536B) 0x9B966F2: ??? (in /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudart.so.11.8.89)
+|         ->01.77% (65,536B) 0x9B99717: ??? (in /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudart.so.11.8.89)
+|           ->01.77% (65,536B) 0x50844DE: __pthread_once_slow (pthread_once.c:116)
+|             ->01.77% (65,536B) 0x9BDF5D8: ??? (in /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudart.so.11.8.89)
+|               ->01.77% (65,536B) 0x9B8B206: ??? (in /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudart.so.11.8.89)
+|                 ->01.77% (65,536B) 0x9BB0230: cudaGetDeviceCount (in /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudart.so.11.8.89)
+|                   ->01.77% (65,536B) 0x9B58A84: uct_cuda_base_query_md_resources (cuda_md.c:284)
+|                     ->01.77% (65,536B) 0x925D7D4: uct_component_query (uct_component.c:91)
+|                       ->01.77% (65,536B) 0x90012E1: ???
+|                         ->01.77% (65,536B) 0x9002666: ???
+|                           ->01.77% (65,536B) 0x8FC9B3D: ???
+|                             ->01.77% (65,536B) 0x4FBCCCC: open_components (mca_base_components_open.c:125)
+|                               ->01.77% (65,536B) 0x4FBCCCC: mca_base_framework_components_open (mca_base_components_open.c:68)
+|                                 ->01.77% (65,536B) 0x491C43E: mca_pml_base_open (pml_base_frame.c:184)
+|                                   ->01.77% (65,536B) 0x4FC73D8: mca_base_framework_open (mca_base_framework.c:176)
+|                                     ->01.77% (65,536B) 0x49261D4: ompi_mpi_init (ompi_mpi_init.c:617)
+|                                       ->01.77% (65,536B) 0x48B9CD2: PMPI_Init (pinit.c:67)
+|                                         ->01.77% (65,536B) 0x10A597: main (in /root/nfs/parallel computing/lab7/fft_mpi)
+|                                           
+->01.34% (49,302B) 0x4FBE9C1: mca_base_var_generate_full_name4 (mca_base_var.c:194)
+| ->01.34% (49,302B) in 8 places, all below massif's threshold (1.00%)
+|   
+->01.11% (41,160B) 0x4FC628F: opal_obj_new (opal_object.h:507)
+| ->01.11% (41,160B) 0x4FC628F: group_register (mca_base_var_group.c:244)
+|   ->01.11% (41,160B) in 7 places, all below massif's threshold (1.00%)
+|     
+->01.07% (39,680B) 0x5023F41: opal_hwloc201_hwloc_tma_malloc (private.h:383)
+  ->01.07% (39,680B) 0x5023F41: opal_hwloc201_hwloc_alloc_setup_object (topology.c:1679)
+    ->01.07% (39,680B) in 9 places, all below massif's threshold (1.00%)
+      
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 51  4,675,731,354        3,693,008        3,483,616       200,904        8,488
+ 52  4,735,298,858        3,693,040        3,483,616       200,904        8,520
+ 53  4,794,866,340        3,692,992        3,483,616       200,904        8,472
+ 54  4,854,433,834        3,693,008        3,483,616       200,904        8,488
+ 55  4,914,001,338        3,693,040        3,483,616       200,904        8,520
