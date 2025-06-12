@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.0,
+  "output": "",
+  "error": "usage: eval.py [-h] [--load_path LOAD_PATH] [--use_train_model] [--net NET]\n               [--net_from_name NET_FROM_NAME] [--depth DEPTH]\n               [--widen_factor WIDEN_FACTOR] [--leaky_slope LEAKY_SLOPE]\n               [--dropout DROPOUT] [--batch_size BATCH_SIZE]\n               [--data_dir DATA_DIR] [--dataset DATASET]\n               [--num_classes NUM_CLASSES]\neval.py: error: unrecognized arguments: --c TorchSSL/config/fixmatch/fixmatch_cifar10_40_0.yaml\n",
+  "command": "python TorchSSL/eval.py --c TorchSSL/config/fixmatch/fixmatch_cifar10_40_0.yaml --load_path ./saved_models/fixmatch_cifar10_40_0/latest_model.pth",
+  "success": false
+}

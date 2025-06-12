@@ -1,0 +1,49 @@
+MixMatch Training Log
+N-labeled: 250
+Total steps: 20000
+Batch size: 64
+Learning rate: 0.002
+Lambda-u: 75.0
+Temperature: 0.5
+Alpha: 0.75
+==================================================
+Step 1000: Test Acc: 22.15%, Test Loss: 2.1113
+  Avg Loss: 1.7043, Sup Loss: 1.7035, Unsup Loss: 0.0236
+Step 2000: Test Acc: 24.74%, Test Loss: 2.0967
+  Avg Loss: 1.2252, Sup Loss: 1.2229, Unsup Loss: 0.0207
+Step 3000: Test Acc: 36.92%, Test Loss: 1.7752
+  Avg Loss: 1.0661, Sup Loss: 1.0624, Unsup Loss: 0.0206
+Step 4000: Test Acc: 43.41%, Test Loss: 1.6468
+  Avg Loss: 0.9820, Sup Loss: 0.9772, Unsup Loss: 0.0187
+Step 5000: Test Acc: 44.76%, Test Loss: 1.6365
+  Avg Loss: 0.9614, Sup Loss: 0.9554, Unsup Loss: 0.0181
+Step 6000: Test Acc: 45.82%, Test Loss: 1.6142
+  Avg Loss: 0.9573, Sup Loss: 0.9507, Unsup Loss: 0.0164
+Step 7000: Test Acc: 45.86%, Test Loss: 1.6193
+  Avg Loss: 0.9080, Sup Loss: 0.9005, Unsup Loss: 0.0158
+Step 8000: Test Acc: 45.89%, Test Loss: 1.6207
+  Avg Loss: 0.9479, Sup Loss: 0.9392, Unsup Loss: 0.0158
+Step 9000: Test Acc: 45.92%, Test Loss: 1.6193
+  Avg Loss: 0.8964, Sup Loss: 0.8868, Unsup Loss: 0.0154
+Step 10000: Test Acc: 45.86%, Test Loss: 1.6190
+  Avg Loss: 0.8975, Sup Loss: 0.8875, Unsup Loss: 0.0145
+Step 11000: Test Acc: 46.06%, Test Loss: 1.6227
+  Avg Loss: 0.9159, Sup Loss: 0.9048, Unsup Loss: 0.0144
+Step 12000: Test Acc: 46.08%, Test Loss: 1.6280
+  Avg Loss: 0.9253, Sup Loss: 0.9133, Unsup Loss: 0.0143
+Step 13000: Test Acc: 46.63%, Test Loss: 1.6200
+  Avg Loss: 0.8958, Sup Loss: 0.8831, Unsup Loss: 0.0138
+Step 14000: Test Acc: 46.03%, Test Loss: 1.6336
+  Avg Loss: 0.9084, Sup Loss: 0.8949, Unsup Loss: 0.0137
+Step 15000: Test Acc: 46.01%, Test Loss: 1.6324
+  Avg Loss: 0.8834, Sup Loss: 0.8694, Unsup Loss: 0.0131
+Step 16000: Test Acc: 46.00%, Test Loss: 1.6335
+  Avg Loss: 0.8525, Sup Loss: 0.8381, Unsup Loss: 0.0127
+Step 17000: Test Acc: 45.66%, Test Loss: 1.6406
+  Avg Loss: 0.8749, Sup Loss: 0.8594, Unsup Loss: 0.0128
+Step 18000: Test Acc: 45.79%, Test Loss: 1.6401
+  Avg Loss: 0.8663, Sup Loss: 0.8500, Unsup Loss: 0.0127
+Step 19000: Test Acc: 45.73%, Test Loss: 1.6391
+  Avg Loss: 0.8643, Sup Loss: 0.8473, Unsup Loss: 0.0125
+Step 20000: Test Acc: 45.63%, Test Loss: 1.6436
+  Avg Loss: 0.8985, Sup Loss: 0.8803, Unsup Loss: 0.0128

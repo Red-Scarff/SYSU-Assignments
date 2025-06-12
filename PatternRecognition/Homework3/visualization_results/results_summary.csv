@@ -1,0 +1,4 @@
+Labels,TorchSSL_FixMatch,Our_FixMatch,TorchSSL_MixMatch,Our_MixMatch
+40,35.73%,52.80%,39.09%,24.63%
+250,85.20%,80.93%,70.18%,45.63%
+4000,90.50%,90.05%,88.70%,69.78%

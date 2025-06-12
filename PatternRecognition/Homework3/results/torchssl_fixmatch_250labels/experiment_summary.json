@@ -1,0 +1,11 @@
+{
+  "experiment_name": "torchssl_fixmatch_250labels_20250609_190032",
+  "algorithm": "fixmatch",
+  "num_labels": 250,
+  "config_file": "TorchSSL/config/fixmatch/fixmatch_cifar10_250_0.yaml",
+  "command": "python TorchSSL/fixmatch.py --c TorchSSL/config/fixmatch/fixmatch_cifar10_250_0.yaml --save_dir ./results/torchssl_fixmatch_250labels --save_name fixmatch_cifar10_250_0 --overwrite --gpu 0",
+  "return_code": 0,
+  "duration_seconds": 3957.176648378372,
+  "timestamp": "20250609_190032",
+  "save_dir": "./results/torchssl_fixmatch_250labels"
+}

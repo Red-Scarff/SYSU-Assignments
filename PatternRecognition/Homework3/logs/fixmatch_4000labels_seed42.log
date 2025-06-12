@@ -1,0 +1,49 @@
+FixMatch Training Log
+N-labeled: 4000
+Total steps: 20000
+Batch size: 64
+Learning rate: 0.03
+Lambda-u: 1.0
+Temperature: 1.0
+Threshold: 0.95
+==================================================
+Step 1000: Test Acc: 26.69%, Test Loss: 2.2118
+  Avg Loss: 1.2506, Sup Loss: 1.1976, Unsup Loss: 0.0530, Mask Ratio: 0.0761
+Step 2000: Test Acc: 62.80%, Test Loss: 1.0752
+  Avg Loss: 0.8096, Sup Loss: 0.6427, Unsup Loss: 0.1669, Mask Ratio: 0.2943
+Step 3000: Test Acc: 71.95%, Test Loss: 0.8375
+  Avg Loss: 0.6151, Sup Loss: 0.3617, Unsup Loss: 0.2534, Mask Ratio: 0.4669
+Step 4000: Test Acc: 70.36%, Test Loss: 1.0010
+  Avg Loss: 0.4887, Sup Loss: 0.1894, Unsup Loss: 0.2993, Mask Ratio: 0.5873
+Step 5000: Test Acc: 67.34%, Test Loss: 1.2780
+  Avg Loss: 0.4144, Sup Loss: 0.1059, Unsup Loss: 0.3085, Mask Ratio: 0.6572
+Step 6000: Test Acc: 66.51%, Test Loss: 1.3091
+  Avg Loss: 0.3635, Sup Loss: 0.0629, Unsup Loss: 0.3006, Mask Ratio: 0.7051
+Step 7000: Test Acc: 68.41%, Test Loss: 1.1996
+  Avg Loss: 0.3254, Sup Loss: 0.0400, Unsup Loss: 0.2854, Mask Ratio: 0.7377
+Step 8000: Test Acc: 72.49%, Test Loss: 1.0115
+  Avg Loss: 0.3066, Sup Loss: 0.0314, Unsup Loss: 0.2752, Mask Ratio: 0.7547
+Step 9000: Test Acc: 75.06%, Test Loss: 0.9060
+  Avg Loss: 0.2821, Sup Loss: 0.0223, Unsup Loss: 0.2599, Mask Ratio: 0.7758
+Step 10000: Test Acc: 78.27%, Test Loss: 0.7568
+  Avg Loss: 0.2603, Sup Loss: 0.0159, Unsup Loss: 0.2444, Mask Ratio: 0.7921
+Step 11000: Test Acc: 79.75%, Test Loss: 0.6928
+  Avg Loss: 0.2415, Sup Loss: 0.0098, Unsup Loss: 0.2317, Mask Ratio: 0.8089
+Step 12000: Test Acc: 82.18%, Test Loss: 0.6172
+  Avg Loss: 0.2302, Sup Loss: 0.0081, Unsup Loss: 0.2222, Mask Ratio: 0.8213
+Step 13000: Test Acc: 83.84%, Test Loss: 0.5598
+  Avg Loss: 0.2180, Sup Loss: 0.0061, Unsup Loss: 0.2119, Mask Ratio: 0.8324
+Step 14000: Test Acc: 85.98%, Test Loss: 0.4844
+  Avg Loss: 0.2047, Sup Loss: 0.0042, Unsup Loss: 0.2005, Mask Ratio: 0.8434
+Step 15000: Test Acc: 87.57%, Test Loss: 0.4351
+  Avg Loss: 0.1950, Sup Loss: 0.0028, Unsup Loss: 0.1921, Mask Ratio: 0.8527
+Step 16000: Test Acc: 88.52%, Test Loss: 0.4206
+  Avg Loss: 0.1854, Sup Loss: 0.0020, Unsup Loss: 0.1834, Mask Ratio: 0.8620
+Step 17000: Test Acc: 88.82%, Test Loss: 0.4218
+  Avg Loss: 0.1791, Sup Loss: 0.0015, Unsup Loss: 0.1776, Mask Ratio: 0.8682
+Step 18000: Test Acc: 89.48%, Test Loss: 0.4095
+  Avg Loss: 0.1730, Sup Loss: 0.0012, Unsup Loss: 0.1719, Mask Ratio: 0.8740
+Step 19000: Test Acc: 89.80%, Test Loss: 0.4014
+  Avg Loss: 0.1695, Sup Loss: 0.0010, Unsup Loss: 0.1685, Mask Ratio: 0.8767
+Step 20000: Test Acc: 90.05%, Test Loss: 0.4050
+  Avg Loss: 0.1674, Sup Loss: 0.0010, Unsup Loss: 0.1664, Mask Ratio: 0.8777

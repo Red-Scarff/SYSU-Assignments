@@ -1,0 +1,11 @@
+{
+  "experiment_name": "torchssl_fixmatch_4000labels_20250609_200706",
+  "algorithm": "fixmatch",
+  "num_labels": 4000,
+  "config_file": "TorchSSL/config/fixmatch/fixmatch_cifar10_4000_0.yaml",
+  "command": "python TorchSSL/fixmatch.py --c TorchSSL/config/fixmatch/fixmatch_cifar10_4000_0.yaml --save_dir ./results/torchssl_fixmatch_4000labels --save_name fixmatch_cifar10_4000_0 --overwrite --gpu 0",
+  "return_code": 0,
+  "duration_seconds": 3977.293095588684,
+  "timestamp": "20250609_200706",
+  "save_dir": "./results/torchssl_fixmatch_4000labels"
+}

@@ -1,0 +1,11 @@
+{
+  "experiment_name": "torchssl_mixmatch_40labels_20250609_220919",
+  "algorithm": "mixmatch",
+  "num_labels": 40,
+  "config_file": "TorchSSL/config/mixmatch/mixmatch_cifar10_40_0.yaml",
+  "command": "python TorchSSL/mixmatch.py --c TorchSSL/config/mixmatch/mixmatch_cifar10_40_0.yaml --save_dir ./results/torchssl_mixmatch_40labels --save_name mixmatch_cifar10_40_0 --overwrite=True --gpu 0",
+  "return_code": 0,
+  "duration_seconds": 2289.7021012306213,
+  "timestamp": "20250609_220919",
+  "save_dir": "./results/torchssl_mixmatch_40labels"
+}

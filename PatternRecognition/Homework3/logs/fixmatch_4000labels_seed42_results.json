@@ -1,0 +1,6 @@
+{
+  "final_test_acc": 90.05,
+  "best_test_acc": 90.05,
+  "n_labeled": 4000,
+  "total_steps": 20000
+}
